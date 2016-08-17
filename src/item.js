@@ -8,7 +8,7 @@ export default class Item extends Component {
 			<li>
 				<a href={'#' + this.props.data.id}
 					onClick={e => this.props.switchTabs(this.props.data.id, e)}
-					className={this.props.data.active === this.props.data.id ? 'active': ''}>
+					className={this.props.state.active === this.props.data.id ? 'active': ''}>
 						{this.props.data.link}
 				</a>
 			</li>

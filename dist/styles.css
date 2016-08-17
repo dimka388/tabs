@@ -13,6 +13,10 @@ a:hover{
 	color: red;
 }
 
+.wrapper{
+	width: 100%;
+	overflow: hidden;
+}
 
 .tabset {
 	margin: 0;

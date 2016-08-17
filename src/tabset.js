@@ -11,6 +11,7 @@ export default class Tabset extends Component {
 				{this.props.state.tabs.map((item, i) => (
 					<Item
 						key={i}
+						state={this.props.state}
 						data={item}
 						switchTabs={(id, e) => this.props.switchTabs(id, e)}
 					/>
